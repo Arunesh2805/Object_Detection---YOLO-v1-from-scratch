@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# YOLO datasets (raw images, labels)
+data_files/images/
+data_files/labels/
+
+# Model checkpoints (use Git LFS instead)
+*.pt
+*.pth
+*.weights
+
+# Logs and outputs
+runs/
+logs/
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
